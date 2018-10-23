@@ -1,4 +1,4 @@
-package com.lin.zookpeer;
+package com.lin.zookpeer.utils;
 
 import org.apache.zookeeper.server.auth.DigestAuthenticationProvider;
 
