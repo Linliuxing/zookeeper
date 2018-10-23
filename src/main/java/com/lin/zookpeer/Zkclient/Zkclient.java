@@ -1,4 +1,4 @@
-package com.lin.zookpeer;
+package com.lin.zookpeer.Zkclient;
 
 import org.I0Itec.zkclient.ZkClient;
 import org.apache.zookeeper.CreateMode;

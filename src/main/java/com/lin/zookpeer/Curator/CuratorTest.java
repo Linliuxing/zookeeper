@@ -1,4 +1,4 @@
-package com.lin.zookpeer;
+package com.lin.zookpeer.Curator;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
