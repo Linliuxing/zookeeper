@@ -3,8 +3,7 @@ package com.lin.zookpeer.Curator;
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
-import org.apache.curator.framework.recipes.cache.NodeCache;
-import org.apache.curator.framework.recipes.cache.NodeCacheListener;
+import org.apache.curator.framework.recipes.cache.*;
 import org.apache.curator.retry.*;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.ZooDefs;
@@ -136,20 +135,58 @@ public class CuratorOperator {
         /*Curator之nodeCache一次注册，N次监听*/
         //为节点添加watcher
         //监听数据节点的变更，会触发事件
-        final NodeCache nodeCache = new NodeCache(cto.client,nodePath);
-        //buildInitial: 初始化的时候获取node的值并且缓存
-        nodeCache.start(true);
-        if(nodeCache.getCurrentData() != null){
-            System.out.println("节点的初始化数据为："+new String(nodeCache.getCurrentData().getData()));
-        }else{
-            System.out.println("节点初始化数据为空。。。");
+//        final NodeCache nodeCache = new NodeCache(cto.client,nodePath);
+//        //buildInitial: 初始化的时候获取node的值并且缓存
+//        nodeCache.start(true);
+//        if(nodeCache.getCurrentData() != null){
+//            System.out.println("节点的初始化数据为："+new String(nodeCache.getCurrentData().getData()));
+//        }else{
+//            System.out.println("节点初始化数据为空。。。");
+//        }
+//
+//        nodeCache.getListenable().addListener(new NodeCacheListener() {
+//            public void nodeChanged() throws Exception {
+//                //获取当前数据
+//                String data = new String(nodeCache.getCurrentData().getData());
+//                System.out.println("节点路径为："+nodeCache.getCurrentData().getPath()+" 数据: "+data);
+//            }
+//        });
+
+        /*子节点监听*/
+        //子节点添加watcher
+        //PathChildrenCache：监听数据节点的增删改，会触发事件
+        String childNodePathCache = nodePath;
+        //childData：设置缓存节点的数据状态
+        final PathChildrenCache childrenCache = new PathChildrenCache(cto.client,childNodePathCache,true);
+
+        /*
+        * StartMode：初始化方式
+        * POST_INITIALIZED_EVENT：异步初始化。初始化后会触发事件
+        * NORMAL：异步初始化
+        * BUILD_INITIAL_CACHE：同步初始化
+        * */
+        childrenCache.start(PathChildrenCache.StartMode.POST_INITIALIZED_EVENT);
+
+        List<ChildData> childDataList = childrenCache.getCurrentData();
+        System.out.println("当前数据节点的子节点数据列表:");
+        for(ChildData cd : childDataList){
+            String childData = new String(cd.getData());
+            System.out.println(childData);
         }
 
-        nodeCache.getListenable().addListener(new NodeCacheListener() {
-            public void nodeChanged() throws Exception {
-                //获取当前数据
-                String data = new String(nodeCache.getCurrentData().getData());
-                System.out.println("节点路径为："+nodeCache.getCurrentData().getPath()+" 数据: "+data);
+        childrenCache.getListenable().addListener(new PathChildrenCacheListener() {
+            public void childEvent(CuratorFramework ient, PathChildrenCacheEvent event) throws Exception {
+               if(event.getType().equals(PathChildrenCacheEvent.Type.INITIALIZED)){
+                   System.out.println("子节点初始化成功");
+               }else if(event.getType().equals(PathChildrenCacheEvent.Type.CHILD_ADDED)){
+                   System.out.println("添加子节点路径:"+event.getData().getPath());
+                   System.out.println("子节点数据:"+new String(event.getData().getData()));
+               }else if(event.getType().equals(PathChildrenCacheEvent.Type.CHILD_REMOVED)){
+                   System.out.println("删除子节点:"+event.getData().getPath());
+               }else if(event.getType().equals(PathChildrenCacheEvent.Type.CHILD_UPDATED)){
+                   System.out.println("修改子节点路径:"+event.getData().getPath());
+                   System.out.println("修改子节点数据:"+new String(event.getData().getData()));
+               }
             }
         });
 
