@@ -1,38 +1,3 @@
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=192.168.0.183:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@5b84c0
-DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.0.183/192.168.0.183:2181. Will not attempt to authenticate using SASL (unknown error)
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 192.168.0.183/192.168.0.183:2181, initiating session
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 192.168.0.183/192.168.0.183:2181
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 192.168.0.183/192.168.0.183:2181, sessionid = 0x1000058c4eb0017, negotiated timeout = 40000
-INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0017, packet:: clientPath:null serverPath:null finished:false header:: 1,12  replyHeader:: 1,123,0  request:: '/,T  response:: v{'zookeeper},s{0,0,0,0,0,25,0,0,0,1,122} 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got notification sessionid:0x1000058c4eb0017
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/ for sessionid 0x1000058c4eb0017
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0017, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,124,0  request:: '/test,#44617461,v{s{31,s{'world,'anyone}}},0  response:: '/test 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0017, packet:: clientPath:null serverPath:null finished:false header:: 3,5  replyHeader:: 3,125,0  request:: '/test,#313131,-1  response:: s{124,125,1530521281736,1530521281745,1,0,0,0,3,0,124} 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0017, packet:: clientPath:null serverPath:null finished:false header:: 4,5  replyHeader:: 4,126,0  request:: '/test,#323232,-1  response:: s{124,126,1530521281736,1530521281753,2,0,0,0,3,0,124} 
-DEBUG main org.apache.curator.framework.imps.CuratorFrameworkImpl - Closing
-DEBUG main org.apache.curator.CuratorZookeeperClient - Closing
-DEBUG main org.apache.curator.ConnectionState - Closing
-DEBUG main org.apache.zookeeper.ZooKeeper - Closing session: 0x1000058c4eb0017
-DEBUG main org.apache.zookeeper.ClientCnxn - Closing client for session: 0x1000058c4eb0017
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0017, packet:: clientPath:null serverPath:null finished:false header:: 5,-11  replyHeader:: 5,127,0  request:: null response:: null
-DEBUG main org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x1000058c4eb0017
-INFO main org.apache.zookeeper.ZooKeeper - Session: 0x1000058c4eb0017 closed
-INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
@@ -41,46 +6,20 @@ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=192.168.0.183:2181 sessionTimeout=3000 watcher=com.lin.zookpeer.ZookpeerTest$1@1646c37
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
 DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.0.183/192.168.0.183:2181. Will not attempt to authenticate using SASL (unknown error)
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 192.168.0.183/192.168.0.183:2181, initiating session
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 192.168.0.183/192.168.0.183:2181
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 192.168.0.183/192.168.0.183:2181, sessionid = 0x1000058c4eb0018, negotiated timeout = 4000
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0018, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,129,0  request:: '/country,#4368696e61,v{s{31,s{'world,'anyone}}},0  response:: '/country 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0018, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,130,0  request:: '/country/city,#4368696e612f48616e677a686f75,v{s{31,s{'world,'anyone}}},0  response:: '/country/city 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0018, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,130,0  request:: '/country,F  response:: #4368696e61,s{129,129,1530521469765,1530521469765,0,1,0,0,5,1,130} 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0018, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,130,0  request:: '/country,T  response:: v{'city} 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got notification sessionid:0x1000058c4eb0018
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/country for sessionid 0x1000058c4eb0018
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0018, packet:: clientPath:null serverPath:null finished:false header:: 5,1  replyHeader:: 5,131,0  request:: '/country/view,#4368696e612f576573744c616b65,v{s{31,s{'world,'anyone}}},0  response:: '/country/view 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0018, packet:: clientPath:null serverPath:null finished:false header:: 6,8  replyHeader:: 6,131,0  request:: '/country,T  response:: v{'view,'city} 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0018, packet:: clientPath:null serverPath:null finished:false header:: 7,5  replyHeader:: 7,132,0  request:: '/country/city,#4368696e612f5368616e67686169,-1  response:: s{130,132,1530521469771,1530521469790,1,0,0,0,14,0,130} 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0018, packet:: clientPath:null serverPath:null finished:false header:: 8,4  replyHeader:: 8,132,0  request:: '/country/city,T  response:: #4368696e612f5368616e67686169,s{130,132,1530521469771,1530521469790,1,0,0,0,14,0,130} 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 1ms
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 2ms
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 1ms
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 1ms
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 1ms
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 1ms
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 1ms
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 1ms
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 1ms
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 1ms
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x1000058c4eb0018 after 1ms
-DEBUG main org.apache.zookeeper.ZooKeeper - Closing session: 0x1000058c4eb0018
-DEBUG main org.apache.zookeeper.ClientCnxn - Closing client for session: 0x1000058c4eb0018
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1000058c4eb0018, packet:: clientPath:null serverPath:null finished:false header:: 9,-11  replyHeader:: 9,133,0  request:: null response:: null
-DEBUG main org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x1000058c4eb0018
-INFO main org.apache.zookeeper.ZooKeeper - Session: 0x1000058c4eb0018 closed
-INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba6533000e, negotiated timeout = 5000
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba6533000e, packet:: clientPath:null serverPath:null finished:false header:: 1,4  replyHeader:: 1,8589934660,0  request:: '/aclimooc/iptest,F  response:: #313233343536,s{8589934655,8589934658,1540290374046,1540290526929,1,0,0,0,6,0,8589934655} 
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
@@ -89,67 +28,167 @@ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=192.168.0.183:2181 sessionTimeout=3000 watcher=com.lin.zookpeer.ZookpeerTest$1@1646c37
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
 DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.0.183/192.168.0.183:2181. Will not attempt to authenticate using SASL (unknown error)
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 3001ms for sessionid 0x0, closing socket connection and attempting reconnect
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
-java.net.SocketException: Socket is not connected
-	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
-	at sun.nio.ch.Net.translateException(Net.java:157)
-	at sun.nio.ch.Net.translateException(Net.java:163)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
-	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
-Caused by: java.nio.channels.NotYetConnectedException
-	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:782)
-	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
-	... 3 more
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
-java.net.SocketException: Socket is not connected
-	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
-	at sun.nio.ch.Net.translateException(Net.java:157)
-	at sun.nio.ch.Net.translateException(Net.java:163)
-	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba6533000f, negotiated timeout = 5000
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba6533000f, packet:: clientPath:null serverPath:null finished:false header:: 1,4  replyHeader:: 1,8589934662,0  request:: '/aclimooc/iptest,F  response:: #313233343536,s{8589934655,8589934658,1540290374046,1540290526929,1,0,0,0,6,0,8589934655} 
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
+DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330010, negotiated timeout = 5000
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330010, packet:: clientPath:null serverPath:null finished:false header:: 1,5  replyHeader:: 1,8589934665,-103  request:: '/aclimooc/iptest,#6e6f77,0  response::  
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
+DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330011, negotiated timeout = 5000
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330011, packet:: clientPath:null serverPath:null finished:false header:: 1,4  replyHeader:: 1,8589934667,0  request:: '/aclimooc/iptest,F  response:: #313233343536,s{8589934655,8589934658,1540290374046,1540290526929,1,0,0,0,6,0,8589934655} 
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
+DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330012, negotiated timeout = 5000
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330012, packet:: clientPath:null serverPath:null finished:false header:: 1,5  replyHeader:: 1,8589934670,0  request:: '/aclimooc/iptest,#6e6f77,1  response:: s{8589934655,8589934670,1540290374046,1540290780510,2,0,0,0,3,0,8589934655} 
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330012, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,8589934670,0  request:: '/aclimooc/iptest,F  response:: #6e6f77,s{8589934655,8589934670,1540290374046,1540290780510,2,0,0,0,3,0,8589934655} 
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
+DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330013, negotiated timeout = 5000
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330013, packet:: clientPath:null serverPath:null finished:false header:: 1,4  replyHeader:: 1,8589934672,0  request:: '/aclimooc/iptest,F  response:: #6e6f77,s{8589934655,8589934670,1540290374046,1540290780510,2,0,0,0,3,0,8589934655} 
+WARN main org.apache.curator.CuratorZookeeperClient - session timeout [10000] is less than connection timeout [15000]
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=10000 watcher=org.apache.curator.ConnectionState@13c0b17
+DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：连接中
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.net.SocketException: Connection reset by peer: shutdown
+	at sun.nio.ch.Net.shutdown(Native Method)
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:801)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
 	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
 	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
 	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
-Caused by: java.nio.channels.NotYetConnectedException
-	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:799)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+DEBUG main org.apache.curator.framework.imps.CuratorFrameworkImpl - Closing
+DEBUG main org.apache.curator.CuratorZookeeperClient - Closing
+DEBUG main org.apache.curator.ConnectionState - Closing
+DEBUG main org.apache.zookeeper.ZooKeeper - Closing session: 0x0
+DEBUG main org.apache.zookeeper.ClientCnxn - Closing client for session: 0x0
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - An exception was thrown while closing send thread for session 0x0 : Unable to read additional data from server sessionid 0x0, likely server has closed socket
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.net.SocketException: Connection reset by peer: shutdown
+	at sun.nio.ch.Net.shutdown(Native Method)
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:801)
 	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
-	... 3 more
-DEBUG main org.I0Itec.zkclient.ZkConnection - Creating new ZookKeeper instance to connect to 192.168.0.183:2181.
-INFO ZkClient-EventThread-9-192.168.0.183:2181 org.I0Itec.zkclient.ZkEventThread - Starting ZkClient event thread.
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=192.168.0.183:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@191083d
-DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
-DEBUG main org.I0Itec.zkclient.ZkClient - Awaiting connection to Zookeeper server
-INFO main org.I0Itec.zkclient.ZkClient - Waiting for keeper state SyncConnected
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.0.183/192.168.0.183:2181. Will not attempt to authenticate using SASL (unknown error)
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 192.168.0.183/192.168.0.183:2181, initiating session
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 192.168.0.183/192.168.0.183:2181
-INFO main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 192.168.0.183/192.168.0.183:2181, sessionid = 0x10000013cb10002, negotiated timeout = 30000
-DEBUG main-EventThread org.I0Itec.zkclient.ZkClient - Received event: WatchedEvent state:SyncConnected type:None path:null
-INFO main-EventThread org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-DEBUG main-EventThread org.I0Itec.zkclient.ZkClient - Leaving process event
-DEBUG main org.I0Itec.zkclient.ZkClient - State is SyncConnected
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x10000013cb10002, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,138,0  request:: '/root,#ffffffacffffffed0574066d7964617461,v{s{31,s{'world,'anyone}}},0  response:: '/root 
-DEBUG main-SendThread(192.168.0.183:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x10000013cb10002, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,138,0  request:: '/root,F  response:: #ffffffacffffffed0574066d7964617461,s{138,138,1530605134423,1530605134423,0,0,0,0,13,0,138} 
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1122)
+DEBUG main org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x0
+INFO main org.apache.zookeeper.ZooKeeper - Session: 0x0 closed
+INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：已关闭
+WARN main org.apache.curator.CuratorZookeeperClient - session timeout [10000] is less than connection timeout [15000]
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
@@ -165,26 +204,51 @@ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZKConnectionSessionWatcher@6a30c7
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=10000 watcher=org.apache.curator.ConnectionState@13c0b17
 DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
-INFO main com.lin.zookpeer.ZKConnectionSessionWatcher - 客户端开始连接Zookeeper服务器...
-INFO main com.lin.zookpeer.ZKConnectionSessionWatcher - 客户端状态:CONNECTING
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：连接中
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.net.SocketException: Connection reset by peer: shutdown
+	at sun.nio.ch.Net.shutdown(Native Method)
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:801)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1110)
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
 DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330002, negotiated timeout = 5000
-INFO main com.lin.zookpeer.ZKConnectionSessionWatcher - 客户端状态:CONNECTED
-INFO main com.lin.zookpeer.ZKConnectionSessionWatcher - 开始会话重连....
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZKConnectionSessionWatcher@1833882 sessionId=0 sessionPasswd=<hidden>
-INFO main com.lin.zookpeer.ZKConnectionSessionWatcher - 客户端开始连接Zookeeper服务器...
-INFO main com.lin.zookpeer.ZKConnectionSessionWatcher - 客户端状态:CONNECTING
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+DEBUG main org.apache.curator.framework.imps.CuratorFrameworkImpl - Closing
+DEBUG main org.apache.curator.CuratorZookeeperClient - Closing
+DEBUG main org.apache.curator.ConnectionState - Closing
+DEBUG main org.apache.zookeeper.ZooKeeper - Closing session: 0x0
+DEBUG main org.apache.zookeeper.ClientCnxn - Closing client for session: 0x0
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
 DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330003, negotiated timeout = 5000
-INFO main com.lin.zookpeer.ZKConnectionSessionWatcher - 客户端状态:CONNECTED
-DEBUG main org.I0Itec.zkclient.ZkConnection - Creating new ZookKeeper instance to connect to 172.16.1.160:2181.
-INFO ZkClient-EventThread-9-172.16.1.160:2181 org.I0Itec.zkclient.ZkEventThread - Starting ZkClient event thread.
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - An exception was thrown while closing send thread for session 0x0 : Unable to read additional data from server sessionid 0x0, likely server has closed socket
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.net.SocketException: Connection reset by peer: shutdown
+	at sun.nio.ch.Net.shutdown(Native Method)
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:801)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1122)
+DEBUG main org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x0
+INFO main org.apache.zookeeper.ZooKeeper - Session: 0x0 closed
+INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：已关闭
+WARN main org.apache.curator.CuratorZookeeperClient - session timeout [10000] is less than connection timeout [15000]
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
@@ -200,20 +264,29 @@ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@16e9adb
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=10000 watcher=org.apache.curator.ConnectionState@13c0b17
 DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
-DEBUG main org.I0Itec.zkclient.ZkClient - Awaiting connection to Zookeeper server
-INFO main org.I0Itec.zkclient.ZkClient - Waiting for keeper state SyncConnected
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：连接中
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
 DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330004, negotiated timeout = 30000
-DEBUG main-EventThread org.I0Itec.zkclient.ZkClient - Received event: WatchedEvent state:SyncConnected type:None path:null
-INFO main-EventThread org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-DEBUG main-EventThread org.I0Itec.zkclient.ZkClient - Leaving process event
-DEBUG main org.I0Itec.zkclient.ZkClient - State is SyncConnected
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330004, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,8589934631,0  request:: '/root,#ffffffacffffffed0574066d7964617461,v{s{31,s{'world,'anyone}}},0  response:: '/root 
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330004, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,8589934631,0  request:: '/root,F  response:: #ffffffacffffffed0574066d7964617461,s{8589934631,8589934631,1540283083744,1540283083744,0,0,0,0,13,0,8589934631} 
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x166a4c8e4520000, negotiated timeout = 10000
+INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+DEBUG main org.apache.curator.framework.imps.CuratorFrameworkImpl - Closing
+DEBUG main org.apache.curator.CuratorZookeeperClient - Closing
+DEBUG main org.apache.curator.ConnectionState - Closing
+DEBUG main org.apache.zookeeper.ZooKeeper - Closing session: 0x166a4c8e4520000
+DEBUG main org.apache.zookeeper.ClientCnxn - Closing client for session: 0x166a4c8e4520000
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520000, packet:: clientPath:null serverPath:null finished:false header:: 1,-11  replyHeader:: 1,17179869186,0  request:: null response:: null
+DEBUG main org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x166a4c8e4520000
+INFO main org.apache.zookeeper.ZooKeeper - Session: 0x166a4c8e4520000 closed
+INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：已关闭
+WARN main org.apache.curator.CuratorZookeeperClient - session timeout [10000] is less than connection timeout [15000]
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
@@ -229,14 +302,37 @@ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=10000 watcher=org.apache.curator.ConnectionState@1b11784
 DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：连接中
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
 DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330005, negotiated timeout = 5000
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330005, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,8589934634,0  request:: '/aclimooc,#74657374,v{s{31,s{'world,'anyone}}},0  response:: '/aclimooc 
-INFO main com.lin.zookpeer.ZkACLTest - 创建节点：	/aclimooc	成功...
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x166a4c8e4520002, negotiated timeout = 10000
+INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520002, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,17179869188,-101  request:: '/workspace,F  response::  
+WARN main org.apache.curator.utils.ZKPaths - The version of ZooKeeper being used doesn't support Container nodes. CreateMode.PERSISTENT will be used instead.
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520002, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,17179869189,0  request:: '/workspace,,v{s{31,s{'world,'anyone}}},0  response:: '/workspace 
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520002, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,17179869190,-101  request:: '/workspace/super/imooc,#7375706572,v{s{31,s{'world,'anyone}}},0  response::  
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520002, packet:: clientPath:null serverPath:null finished:false header:: 4,3  replyHeader:: 4,17179869190,0  request:: '/workspace,F  response:: s{17179869189,17179869189,1540363744883,1540363744883,0,0,0,0,0,0,17179869189} 
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520002, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,17179869190,-101  request:: '/workspace/super,F  response::  
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520002, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,17179869191,0  request:: '/workspace/super,,v{s{31,s{'world,'anyone}}},0  response:: '/workspace/super 
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520002, packet:: clientPath:null serverPath:null finished:false header:: 7,1  replyHeader:: 7,17179869192,0  request:: '/workspace/super/imooc,#7375706572,v{s{31,s{'world,'anyone}}},0  response:: '/workspace/super/imooc 
+DEBUG main org.apache.curator.framework.imps.CuratorFrameworkImpl - Closing
+DEBUG main org.apache.curator.CuratorZookeeperClient - Closing
+DEBUG main org.apache.curator.ConnectionState - Closing
+DEBUG main org.apache.zookeeper.ZooKeeper - Closing session: 0x166a4c8e4520002
+DEBUG main org.apache.zookeeper.ClientCnxn - Closing client for session: 0x166a4c8e4520002
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520002, packet:: clientPath:null serverPath:null finished:false header:: 8,-11  replyHeader:: 8,17179869193,0  request:: null response:: null
+DEBUG main org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x166a4c8e4520002
+INFO main org.apache.zookeeper.ZooKeeper - Session: 0x166a4c8e4520002 closed
+INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：已关闭
+WARN main org.apache.curator.CuratorZookeeperClient - session timeout [10000] is less than connection timeout [15000]
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
@@ -252,14 +348,21 @@ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=10000 watcher=org.apache.curator.ConnectionState@1b11784
 DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：连接中
 DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330006, negotiated timeout = 5000
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330006, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,8589934637,0  request:: '/aclimooc/testdigest,#74657374646967657374,v{s{31,s{'digest,'imooc1:ee8R/pr2P4sGnQYNGyw2M5S5IMU=}},s{1,s{'digest,'imooc2:eBdFG0gQw0YArfEFDCRP3LzIp6k=}},s{12,s{'digest,'imooc2:eBdFG0gQw0YArfEFDCRP3LzIp6k=}}},0  response:: '/aclimooc/testdigest 
-INFO main com.lin.zookpeer.ZkACLTest - 创建节点：	/aclimooc/testdigest	成功...
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x166a4c8e4520003, negotiated timeout = 10000
+INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520003, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,17179869194,0  request:: '/workspace,F  response:: s{17179869189,17179869189,1540363744883,1540363744883,0,1,0,0,0,1,17179869191} 
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520003, packet:: clientPath:null serverPath:null finished:false header:: 2,5  replyHeader:: 2,17179869195,-103  request:: '/workspace/super/imooc,#6e6577313233,1  response::  
+WARN main org.apache.curator.CuratorZookeeperClient - session timeout [10000] is less than connection timeout [15000]
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
@@ -275,13 +378,31 @@ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=10000 watcher=org.apache.curator.ConnectionState@1b11784
 DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：连接中
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
 DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330007, negotiated timeout = 5000
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330007, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,8589934640,-102  request:: '/aclimooc/testdigest/childtest,#6368696c6474657374,v{s{31,s{'world,'anyone}}},0  response::  
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x166a4c8e4520004, negotiated timeout = 10000
+INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520004, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,17179869197,0  request:: '/workspace,F  response:: s{17179869189,17179869189,1540363744883,1540363744883,0,1,0,0,0,1,17179869191} 
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520004, packet:: clientPath:null serverPath:null finished:false header:: 2,5  replyHeader:: 2,17179869198,0  request:: '/workspace/super/imooc,#6e6577313233,0  response:: s{17179869192,17179869198,1540363744934,1540364032086,1,0,0,0,6,0,17179869192} 
+DEBUG main org.apache.curator.framework.imps.CuratorFrameworkImpl - Closing
+DEBUG main org.apache.curator.CuratorZookeeperClient - Closing
+DEBUG main org.apache.curator.ConnectionState - Closing
+DEBUG main org.apache.zookeeper.ZooKeeper - Closing session: 0x166a4c8e4520004
+DEBUG main org.apache.zookeeper.ClientCnxn - Closing client for session: 0x166a4c8e4520004
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520004, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,17179869199,0  request:: null response:: null
+DEBUG main org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x166a4c8e4520004
+INFO main org.apache.zookeeper.ZooKeeper - Session: 0x166a4c8e4520004 closed
+INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：已关闭
+WARN main org.apache.curator.CuratorZookeeperClient - session timeout [10000] is less than connection timeout [15000]
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
@@ -297,13 +418,31 @@ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=10000 watcher=org.apache.curator.ConnectionState@1b11784
 DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：连接中
 DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330008, negotiated timeout = 5000
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330008, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,8589934643,-114  request:: '/aclimooc/testdigest/childtest,#6368696c6474657374,v{s{31,s{'auth,'}}},0  response::  
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x166a4c8e4520005, negotiated timeout = 10000
+INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520005, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,17179869200,0  request:: '/workspace,F  response:: s{17179869189,17179869189,1540363744883,1540363744883,0,1,0,0,0,1,17179869191} 
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520005, packet:: clientPath:null serverPath:null finished:false header:: 2,2  replyHeader:: 2,17179869201,0  request:: '/workspace/super/imooc,1  response:: null
+DEBUG main org.apache.curator.framework.imps.CuratorFrameworkImpl - Closing
+DEBUG main org.apache.curator.CuratorZookeeperClient - Closing
+DEBUG main org.apache.curator.ConnectionState - Closing
+DEBUG main org.apache.zookeeper.ZooKeeper - Closing session: 0x166a4c8e4520005
+DEBUG main org.apache.zookeeper.ClientCnxn - Closing client for session: 0x166a4c8e4520005
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520005, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,17179869202,0  request:: null response:: null
+DEBUG main org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x166a4c8e4520005
+INFO main org.apache.zookeeper.ZooKeeper - Session: 0x166a4c8e4520005 closed
+INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：已关闭
+WARN main org.apache.curator.CuratorZookeeperClient - session timeout [10000] is less than connection timeout [15000]
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
@@ -319,114 +458,34 @@ INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
+INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=10000 watcher=org.apache.curator.ConnectionState@1b11784
 DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：连接中
 INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
 DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba65330009, negotiated timeout = 5000
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Got auth sessionid:0x1669eba65330009
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Got auth sessionid:0x1669eba65330009
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330009, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,8589934646,0  request:: '/aclimooc/testdigest/childtest,#6368696c6474657374,v{s{31,s{'auth,'}}},0  response:: '/aclimooc/testdigest/childtest 
-INFO main com.lin.zookpeer.ZkACLTest - 创建节点：	/aclimooc/testdigest/childtest	成功...
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba65330009, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,8589934646,0  request:: '/aclimooc/testdigest,F  response:: #74657374646967657374,s{8589934637,8589934637,1540289063156,1540289063156,0,1,0,0,10,1,8589934646} 
+INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x166a4c8e4520006, negotiated timeout = 10000
+INFO main-EventThread org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520006, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,17179869203,0  request:: '/workspace,F  response:: s{17179869189,17179869189,1540363744883,1540363744883,0,1,0,0,0,1,17179869191} 
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520006, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,17179869204,0  request:: '/workspace/super/imooc,#7375706572,v{s{31,s{'world,'anyone}}},0  response:: '/workspace/super/imooc 
+DEBUG main org.apache.curator.framework.imps.CuratorFrameworkImpl - Closing
+DEBUG main org.apache.curator.CuratorZookeeperClient - Closing
+DEBUG main org.apache.curator.ConnectionState - Closing
+DEBUG main org.apache.zookeeper.ZooKeeper - Closing session: 0x166a4c8e4520006
+DEBUG main org.apache.zookeeper.ClientCnxn - Closing client for session: 0x166a4c8e4520006
+DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x166a4c8e4520006, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,17179869205,0  request:: null response:: null
+DEBUG main org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x166a4c8e4520006
+INFO main org.apache.zookeeper.ZooKeeper - Session: 0x166a4c8e4520006 closed
+INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+INFO main com.lin.zookpeer.Curator.CuratorOperator - 当前客户端的状态：已关闭
+WARN main org.apache.curator.CuratorZookeeperClient - session timeout [10000] is less than connection timeout [15000]
+INFO main org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+DEBUG main org.apache.curator.CuratorZookeeperClient - Starting
+DEBUG main org.apache.curator.ConnectionState - Starting
+DEBUG main org.apache.curator.ConnectionState - reset
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
 INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
-DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba6533000a, negotiated timeout = 5000
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Got auth sessionid:0x1669eba6533000a
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Got auth sessionid:0x1669eba6533000a
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba6533000a, packet:: clientPath:null serverPath:null finished:false header:: 1,5  replyHeader:: 1,8589934649,-102  request:: '/aclimooc/testdigest,#313233343536,0  response::  
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
-DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba6533000b, negotiated timeout = 5000
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Got auth sessionid:0x1669eba6533000b
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Got auth sessionid:0x1669eba6533000b
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba6533000b, packet:: clientPath:null serverPath:null finished:false header:: 1,5  replyHeader:: 1,8589934652,0  request:: '/aclimooc/testdigest,#313233343536,0  response:: s{8589934637,8589934652,1540289063156,1540289987609,1,1,0,0,6,1,8589934646} 
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
-DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba6533000c, negotiated timeout = 5000
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba6533000c, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,8589934655,0  request:: '/aclimooc/iptest,#313233343536,v{s{31,s{'ip,'172.16.0.67}}},0  response:: '/aclimooc/iptest 
-INFO main com.lin.zookpeer.ZkACLTest - 创建节点：	/aclimooc/iptest	成功...
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\java_workpalce\zookeeper
-INFO main org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.16.1.160:2181 sessionTimeout=5000 watcher=com.lin.zookpeer.ZkACLTest@6a30c7
-DEBUG main org.apache.zookeeper.ClientCnxn - zookeeper.disableAutoWatchReset is false
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.16.1.160/172.16.1.160:2181. Will not attempt to authenticate using SASL (unknown error)
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Socket connection established to 172.16.1.160/172.16.1.160:2181, initiating session
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment request sent on 172.16.1.160/172.16.1.160:2181
-INFO main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.16.1.160/172.16.1.160:2181, sessionid = 0x1669eba6533000d, negotiated timeout = 5000
-DEBUG main-SendThread(172.16.1.160:2181) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x1669eba6533000d, packet:: clientPath:null serverPath:null finished:false header:: 1,5  replyHeader:: 1,8589934658,0  request:: '/aclimooc/iptest,#313233343536,0  response:: s{8589934655,8589934658,1540290374046,1540290526929,1,0,0,0,6,0,8589934655} 
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:host.name=pc-20170824-yy.lan
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_131
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files (x86)\Java\jdk1.8.0_131\jre
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\java_workpalce\zookeeper\target\classes;D:\repo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\repo\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repo\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\repo\jline\jline\0.9.94\jline-0.9.94.jar;D:\repo\junit\junit\3.8.1\junit-3.8.1.jar;D:\repo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\repo\org\apache\curator\curator-framework\2.9.0\curator-framework-2.9.0.jar;D:\repo\org\apache\curator\curator-client\2.9.0\curator-client-2.9.0.jar;D:\repo\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\repo\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repo\org\csource\fastdfs-client-java\1.27-SNAPSHOT\fastdfs-client-java-1.27-SNAPSHOT.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\lib\idea_rt.jar
-INFO main org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\MySql\mysql-5.6.26-winx64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\apache-maven-3.1.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Parrot-7.2.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Java\jdk1.8.0_131\jre\bin;D:\erl9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Program Files\PuTTY\;E:\gradle-4.8.1\bin;E:\node.js\;D:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;;.
